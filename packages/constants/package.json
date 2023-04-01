@@ -1,0 +1,6 @@
+{
+  "name": "@mengui-vue/constants",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts"
+}

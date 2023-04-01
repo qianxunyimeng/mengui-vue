@@ -1,0 +1,26 @@
+{
+  "name": "@mengui-vue/docs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm gen-locale && vitepress dev .",
+    "build": "vitepress build .",
+    "serve": "vitepress serve .",
+    "gen-locale": "rimraf .vitepress/i18n && tsx .vitepress/build/crowdin-generate.ts"
+  },
+  "dependencies": {
+    "mengui-vue": "npm:mengui-vue@latest"
+  },
+  "devDependencies": {
+    "@mengui-vue/build": "workspace:*",
+    "@mengui-vue/build-constants": "^0.0.1",
+    "@mengui-vue/build-utils": "workspace:*",
+    "@vitepress-demo-preview/component": "^2.0.2",
+    "@vitepress-demo-preview/plugin": "^1.1.5",
+    "vitepress": "1.0.0-alpha.26"
+  }
+}
