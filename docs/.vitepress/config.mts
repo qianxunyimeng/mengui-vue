@@ -18,12 +18,10 @@ export const config: UserConfig = {
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
-    logo: '/images/element-plus-logo.svg',
-    logoSmall: '/images/element-plus-logo-small.svg',
+    logo: '/images/mengui.png',
+    logoSmall: '/images/meng-ui-logo-small.svg',
     sidebar,
     nav,
-    //features,
-    //langs: languages,
   },
   markdown: {
     theme: {

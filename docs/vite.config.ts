@@ -1,15 +1,10 @@
 import path from 'path'
 import { defineConfig } from 'vite'
 import VueJsx from '@vitejs/plugin-vue-jsx'
-import {
-  docPackage,
-  epPackage,
-  getPackageDependencies,
-  projRoot,
-} from '@mengui-vue/build-utils'
+import DefineOptions from 'unplugin-vue-define-options/vite'
+import { projRoot } from '@mengui-vue/build-utils'
 import type { Alias } from 'vite'
 const alias: Alias[] = []
-console.log('projRoot:', projRoot)
 if (process.env.DOC_ENV !== 'production') {
   alias.push(
     {
@@ -24,7 +19,7 @@ if (process.env.DOC_ENV !== 'production') {
 }
 
 export default defineConfig({
-  plugins: [VueJsx()],
+  plugins: [VueJsx(), DefineOptions()],
   server: {
     port: 3300,
   },

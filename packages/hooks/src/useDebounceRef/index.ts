@@ -6,15 +6,15 @@ import { customRef } from 'vue'
  * @param delay
  * @returns
  */
-export function useDebounceRef (value:any, delay = 200) {
+export function useDebounceRef(value: any, delay = 200) {
   return customRef((track, trigger) => {
     let timeId: any = null
     return {
-      get () {
+      get() {
         track() // 依赖收集
         return value
       },
-      set (val) {
+      set(val) {
         if (timeId !== null) {
           // 清空定时器
           clearTimeout(timeId)
@@ -31,7 +31,7 @@ export function useDebounceRef (value:any, delay = 200) {
           value = val
           trigger() // 派发
         }
-      }
+      },
     }
   })
 }
