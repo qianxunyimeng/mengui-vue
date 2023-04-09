@@ -133,7 +133,7 @@ export function useWatermark(
     )
   }
 
-  const observer = new MutationObserver((mutationsList, observer) => {
+  const observer = new MutationObserver((mutationsList, _) => {
     mutationsList.forEach((item) => {
       if (item.removedNodes.length > 0) {
         item.removedNodes.forEach((removeNode) => {

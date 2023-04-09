@@ -10,6 +10,7 @@ node_modules
 
 # Bundle
 dist
+!docs/.vitepress/dist
 coverage
 packages/element-plus/version.ts
 

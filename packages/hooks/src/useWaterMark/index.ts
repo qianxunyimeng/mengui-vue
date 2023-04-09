@@ -8,7 +8,7 @@ import {
 import { useThrottleFn } from '@vueuse/core'
 import { getPixelRatio, getStyleStr, rotateWatermark } from './util'
 import type { CSSProperties, Ref } from 'vue'
-
+//const MutationObserver = window.MutationObserver
 const BaseSize = 2
 const FontGap = 3
 const watermarkRef = shallowRef<HTMLElement>()
@@ -346,7 +346,7 @@ export function useWatermark(
     )
   }
 
-  const observer = new MutationObserver((mutationsList, observer) => {
+  const observer = new MutationObserver((mutationsList, _) => {
     if (stopObservation.value) {
       return
     }

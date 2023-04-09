@@ -8,8 +8,10 @@ lang: zh-CN
 给页面某区域添加水印,默认父容器为body，在使用时可以指定父容器，返回两个函数，setWatermark：用于设置水印内容，clear用于删除水印
 
 ## 示例
-
+<!-- <ClientOnly> -->
 <preview path="../demos/useWatermark/demo-1.vue" title="基本使用" description=""></preview>
+<!-- </ClientOnly> -->
+
 
 ## API
 

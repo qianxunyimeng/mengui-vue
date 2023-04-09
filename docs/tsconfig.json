@@ -10,7 +10,7 @@
     "strict": true,
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "lib": ["WebWorker"],
+    "lib": ["WebWorker", "ESNext", "DOM", "DOM.Iterable"],
     "paths": {
       "mengui-vue": ["../packages/mengui-vue"],
       "~/*": ["./.vitepress/vitepress/*"]
