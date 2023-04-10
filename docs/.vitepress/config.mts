@@ -11,7 +11,7 @@ export const config: UserConfig = {
   title: 'MengUI',
   description: '一个基于Vue3的PC端组件库',
   lang: 'zh-CN',
-  base: '/',
+  base: '/mengui-vue/',
   lastUpdated: true,
   head,
   themeConfig: {
