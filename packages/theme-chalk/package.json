@@ -1,10 +1,9 @@
 {
-  "name": "@mengui-vue/theme-chalk",
+  "name": "@meng-ui-vue/theme-chalk",
   "version": "0.1.0",
   "description": "Element component chalk theme.",
   "keywords": [
     "vue-components",
-    "element-plus",
     "theme-chalk",
     "theme-light"
   ],
@@ -27,8 +26,8 @@
     "build": "gulp --require @esbuild-kit/cjs-loader"
   },
   "devDependencies": {
-    "@mengui-vue/build": "workspace:*",
     "@esbuild-kit/cjs-loader": "^2.2.1",
+    "@meng-ui-vue/build": "workspace:*",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-clean-css": "^4.3.0",
     "@types/gulp-rename": "^2.0.1",

@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@mengui-vue/eslint-config"]
+  "extends": ["@meng-ui-vue/eslint-config"]
 }

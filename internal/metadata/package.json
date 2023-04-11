@@ -1,9 +1,9 @@
 {
-  "name": "@mengui-vue/metadata",
+  "name": "@meng-ui-vue/metadata",
   "version": "0.0.1",
-  "description": "Metadata for Element Plus",
+  "description": "Metadata for MengUI Vue",
   "keywords": [
-    "element-plus"
+    "mengui vue"
   ],
   "license": "MIT",
   "files": [
@@ -19,9 +19,9 @@
     "dev": "DEV=1 pnpm run build"
   },
   "devDependencies": {
-    "@mengui-vue/build": "^0.0.1",
-    "@mengui-vue/build-constants": "^0.0.1",
-    "@mengui-vue/build-utils": "^0.0.1",
+    "@meng-ui-vue/build": "^0.0.1",
+    "@meng-ui-vue/build-constants": "^0.0.1",
+    "@meng-ui-vue/build-utils": "^0.0.1",
     "@types/lodash-es": "^4.17.6",
     "chalk": "^5.0.1",
     "consola": "^2.15.3",

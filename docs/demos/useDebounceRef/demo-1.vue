@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { useDebounceRef } from 'mengui-vue'
+import { useDebounceRef } from 'meng-ui-vue'
 const content = useDebounceRef('', 2000)
 </script>
 

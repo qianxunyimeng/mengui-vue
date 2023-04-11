@@ -1,0 +1,21 @@
+import{_ as n,c as s,o as a,g as e}from"./app.90409fb5.js";const g=JSON.parse('{"title":"\u5B89\u88C5","description":"","frontmatter":{"title":"\u5B89\u88C5","lang":"zh-CN"},"headers":[{"level":3,"title":"\u7248\u672C","slug":"\u7248\u672C","link":"#\u7248\u672C","children":[]},{"level":2,"title":"\u5305\u7BA1\u7406\u5668","slug":"\u5305\u7BA1\u7406\u5668","link":"#\u5305\u7BA1\u7406\u5668","children":[]}],"relativePath":"guide/install.md","lastUpdated":null}'),l={name:"guide/install.md"},p=e(`<h1 id="\u5B89\u88C5" tabindex="-1">\u5B89\u88C5 <a class="header-anchor" href="#\u5B89\u88C5" aria-hidden="true">#</a></h1><h3 id="\u7248\u672C" tabindex="-1">\u7248\u672C <a class="header-anchor" href="#\u7248\u672C" aria-hidden="true">#</a></h3><p>MengUI\u76EE\u524D\u8FD8\u5728\u4E0D\u65AD\u5B8C\u5584\u4E2D</p><p><a href="https://www.npmjs.org/package/meng-ui-vue" target="_blank" rel="noreferrer"><img src="https://gitee.com/sql123z/oss/raw/master/uPic/meng-ui-vue-version.png?style=flat-square" alt="MengUI version badge"></a></p><h2 id="\u5305\u7BA1\u7406\u5668" tabindex="-1">\u5305\u7BA1\u7406\u5668 <a class="header-anchor" href="#\u5305\u7BA1\u7406\u5668" aria-hidden="true">#</a></h2><p><strong>\u5EFA\u8BAE\u4F7F\u7528\u5305\u7BA1\u7406\u5668 (NPM, <a href="https://classic.yarnpkg.com/lang/en/" target="_blank" rel="noreferrer">Yarn</a>, <a href="https://pnpm.io/" target="_blank" rel="noreferrer">pnpm</a>) \u6765\u5B89\u88C5 meng-ui-vue</strong>, \u7136\u540E\u60A8\u5C31\u53EF\u4EE5\u4F7F\u7528\u6253\u5305\u5DE5\u5177 \u4F8B\u5982 <a href="https://vitejs.dev" target="_blank" rel="noreferrer">Vite</a> and <a href="https://webpack.js.org/" target="_blank" rel="noreferrer">webpack</a>.</p><div class="language-shell line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="vp-code-dark"><code><span class="line"><span style="color:#758575DD;"># \u9009\u62E9\u4E00\u4E2A\u60A8\u559C\u6B22\u7684\u5305\u7BA1\u7406\u5668.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#758575DD;"># NPM</span></span>
+<span class="line"><span style="color:#DBD7CAEE;">$ npm install meng-ui-vue --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#758575DD;"># Yarn</span></span>
+<span class="line"><span style="color:#DBD7CAEE;">$ yarn add meng-ui-vue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#758575DD;"># pnpm</span></span>
+<span class="line"><span style="color:#DBD7CAEE;">$ pnpm install meng-ui-vue</span></span>
+<span class="line"></span></code></pre><pre class="vp-code-light"><code><span class="line"><span style="color:#A0ADA0;"># \u9009\u62E9\u4E00\u4E2A\u60A8\u559C\u6B22\u7684\u5305\u7BA1\u7406\u5668.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;"># NPM</span></span>
+<span class="line"><span style="color:#393A34;">$ npm install meng-ui-vue --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;"># Yarn</span></span>
+<span class="line"><span style="color:#393A34;">$ yarn add meng-ui-vue</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;"># pnpm</span></span>
+<span class="line"><span style="color:#393A34;">$ pnpm install meng-ui-vue</span></span>
+<span class="line"></span></code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u5982\u679C\u60A8\u7684\u7F51\u7EDC\u4E0D\u4F73, \u5EFA\u8BAE\u4F7F\u7528\u76F8\u5173\u955C\u50CF\u670D\u52A1 <a href="https://github.com/cnpm/cnpm" target="_blank" rel="noreferrer">cnpm</a> \u6216 <a href="https://registry.npm.taobao.org" target="_blank" rel="noreferrer">Alibaba</a>.</p>`,8),r=[p];function t(i,c,o,d,u,m){return a(),s("div",null,r)}const b=n(l,[["render",t]]);export{g as __pageData,b as default};

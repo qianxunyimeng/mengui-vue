@@ -7,7 +7,7 @@ import {
   epOutput,
   epPackage,
   projRoot,
-} from '@mengui-vue/build-utils'
+} from '@meng-ui-vue/build-utils'
 import { buildConfig, run, runTask, withTaskName } from './src'
 import type { TaskFunction } from 'gulp'
 import type { Module } from './src'
@@ -46,7 +46,7 @@ export const copyFullStyle = async () => {
 export default series(
   // 清空 dist
   withTaskName('clean', () => run('pnpm run clean')),
-  // 创建输出入口文件夹 /dist/mengui-vue
+  // 创建输出入口文件夹 /dist/meng-ui-vue
   withTaskName('createOutput', () => mkdir(epOutput, { recursive: true })),
 
   parallel(

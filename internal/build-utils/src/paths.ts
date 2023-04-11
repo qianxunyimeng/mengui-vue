@@ -7,7 +7,7 @@ export const themeRoot = resolve(pkgRoot, 'theme-chalk')
 export const hookRoot = resolve(pkgRoot, 'hooks')
 export const localeRoot = resolve(pkgRoot, 'locale')
 export const directiveRoot = resolve(pkgRoot, 'directives')
-export const epRoot = resolve(pkgRoot, 'mengui-vue')
+export const epRoot = resolve(pkgRoot, 'meng-ui-vue')
 export const utilRoot = resolve(pkgRoot, 'utils')
 export const buildRoot = resolve(projRoot, 'internal', 'build')
 
@@ -19,7 +19,7 @@ export const vpRoot = resolve(docRoot, '.vitepress')
 /** `/dist` */
 export const buildOutput = resolve(projRoot, 'dist')
 /** `/dist/element-plus` */
-export const epOutput = resolve(buildOutput, 'mengui-vue')
+export const epOutput = resolve(buildOutput, 'meng-ui-vue')
 
 export const projPackage = resolve(projRoot, 'package.json')
 export const compPackage = resolve(compRoot, 'package.json')

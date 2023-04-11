@@ -10,19 +10,19 @@ const components = [
       },
     ],
   },
-  {
-    text: 'hooks',
-    items: [
-      {
-        text: 'useDebounceRef',
-        link: '/components/useDebounceRef',
-      },
-      {
-        text: 'useWatermark',
-        link: '/components/useWatermark',
-      },
-    ],
-  },
+  // {
+  //   text: 'hooks',
+  //   items: [
+  //     {
+  //       text: 'useDebounceRef',
+  //       link: '/components/useDebounceRef',
+  //     },
+  //     {
+  //       text: 'useWatermark',
+  //       link: '/components/useWatermark',
+  //     },
+  //   ],
+  // },
 ]
 
 export { components }

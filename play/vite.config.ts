@@ -15,7 +15,7 @@ import {
   getPackageDependencies,
   pkgRoot,
   projRoot,
-} from '@mengui-vue/build-utils'
+} from '@meng-ui-vue/build-utils'
 import type { Plugin } from 'vite'
 import './vite.init'
 
@@ -44,11 +44,11 @@ export default defineConfig(async ({ mode }) => {
     resolve: {
       alias: [
         {
-          find: /^mengui-vue(\/(es|lib))?$/,
+          find: /^meng-ui-vue(\/(es|lib))?$/,
           replacement: path.resolve(epRoot, 'index.ts'),
         },
         {
-          find: /^mengui-vue\/(es|lib)\/(.*)$/,
+          find: /^meng-ui-vue\/(es|lib)\/(.*)$/,
           replacement: `${pkgRoot}/$2`,
         },
       ],

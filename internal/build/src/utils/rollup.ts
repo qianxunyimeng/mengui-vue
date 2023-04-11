@@ -1,4 +1,4 @@
-import { epPackage, getPackageDependencies } from '@mengui-vue/build-utils'
+import { epPackage, getPackageDependencies } from '@meng-ui-vue/build-utils'
 
 import type { OutputOptions, RollupBuild } from 'rollup'
 

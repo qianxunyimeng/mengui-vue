@@ -1,3 +1,4 @@
+import { log } from 'console'
 import {
   getCurrentInstance,
   onBeforeUnmount,
@@ -5,7 +6,7 @@ import {
   shallowRef,
   unref,
 } from 'vue'
-import { useThrottleFn } from '@vueuse/core'
+import { useResizeObserver, useThrottleFn } from '@vueuse/core'
 import { getPixelRatio, getStyleStr, rotateWatermark } from './util'
 import type { CSSProperties, Ref } from 'vue'
 //const MutationObserver = window.MutationObserver
@@ -62,6 +63,8 @@ export function useWatermark(
   let offsetLeft = gapXCenter
   let offsetTop = gapYCenter
 
+  let resizeStop: () => void
+
   // 对外提供的设置水印方法
   function setWatermark(prop: WaterMarkProp) {
     dealParam(prop)
@@ -72,12 +75,13 @@ export function useWatermark(
     createWaterContainer()
 
     createCanvas()
-    // if (resizeStop) {
-    //   resizeStop()
-    // }
+    if (resizeStop) {
+      resizeStop()
+    }
     //const { stop } = useResizeObserver(appendEl, resetWatermarker)
     //resizeStop = stop
-
+    const { stop } = useResizeObserver(appendEl, resetWatermarker)
+    resizeStop = stop
     const instance = getCurrentInstance()
     if (instance) {
       onBeforeUnmount(() => {
@@ -100,7 +104,7 @@ export function useWatermark(
     const el = unref(appendEl)
     if (!el) return
     createCanvas()
-  }, 200)
+  }, 300)
 
   // 处理用户设置的水印参数
   const dealParam = (prop: WaterMarkProp) => {

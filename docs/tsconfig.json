@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "lib": ["WebWorker", "ESNext", "DOM", "DOM.Iterable"],
     "paths": {
-      "mengui-vue": ["../packages/mengui-vue"],
+      "meng-ui-vue": ["../packages/meng-ui-vue"],
       "~/*": ["./.vitepress/vitepress/*"]
     },
     "types": ["../typings/components"],

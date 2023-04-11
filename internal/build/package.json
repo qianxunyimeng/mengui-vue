@@ -1,5 +1,5 @@
 {
-  "name": "@mengui-vue/build",
+  "name": "@meng-ui-vue/build",
   "version": "0.0.1",
   "private": true,
   "description": "Build Toolchain for Element Plus",
@@ -15,7 +15,7 @@
     "vue": "^3.2.25"
   },
   "dependencies": {
-    "@mengui-vue/build-constants": "^0.0.1",
+    "@meng-ui-vue/build-constants": "^0.0.1",
     "@pnpm/find-workspace-packages": "^4.0.16",
     "@pnpm/logger": "^4.0.0",
     "@rollup/plugin-commonjs": "^22.0.1",

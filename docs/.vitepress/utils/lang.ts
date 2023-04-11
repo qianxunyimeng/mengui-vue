@@ -1,7 +1,7 @@
 import { log } from 'console'
 import fs from 'fs'
 import path, { resolve } from 'path'
-//import { docRoot } from '@mengui-vue/build-utils'
+//import { docRoot } from '@meng-ui-vue/build-utils'
 
 const docRoot = resolve(__dirname, '..', '..', '..', 'docs')
 console.log('docRoot:', docRoot)

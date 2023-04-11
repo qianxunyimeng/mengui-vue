@@ -10,8 +10,12 @@ import {
   errorAndExit,
   projRoot,
   writeJson,
-} from '@mengui-vue/build-utils'
-import { REPO_BRANCH, REPO_NAME, REPO_OWNER } from '@mengui-vue/build-constants'
+} from '@meng-ui-vue/build-utils'
+import {
+  REPO_BRANCH,
+  REPO_NAME,
+  REPO_OWNER,
+} from '@meng-ui-vue/build-constants'
 
 interface FetchOption {
   key: string

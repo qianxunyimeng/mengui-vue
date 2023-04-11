@@ -1,5 +1,5 @@
 import type { vShow } from 'vue'
-import type { INSTALLED_KEY } from '@mengui-vue/constants'
+import type { INSTALLED_KEY } from '@meng-ui-vue/constants'
 
 declare global {
   const process: {

@@ -12,7 +12,7 @@ import {
   epPackage,
   getPackageManifest,
   projRoot,
-} from '@mengui-vue/build-utils'
+} from '@meng-ui-vue/build-utils'
 
 import type { TaskFunction } from 'gulp'
 import type {
@@ -28,17 +28,17 @@ const typeMap = {
 }
 
 const reComponentName: ReComponentName = (title) =>
-  `el-${hyphenate(title).replace(/[ ]+/g, '-')}`
+  `mx-${hyphenate(title).replace(/[ ]+/g, '-')}`
 
 const reDocUrl: ReDocUrl = (fileName, header) => {
-  const docs = 'https://element-plus.org/en-US/component/'
+  const docs = 'http://sql123z.gitee.io/mengui-vue/components/'
   const _header = header ? header.replaceAll(/\s+/g, '-').toLowerCase() : ''
 
   return `${docs}${fileName}.html${_header ? '#' : ''}${_header}`
 }
 
 const reWebTypesSource: ReWebTypesSource = (title) => {
-  const symbol = `El${title
+  const symbol = `Mx${title
     .replaceAll(/-/g, ' ')
     .replaceAll(/^\w|\s+\w/g, (item) => {
       return item.trim().toUpperCase()
@@ -53,7 +53,7 @@ const reAttribute: ReAttribute = (value, key) => {
     .replace(/^`(.*)`$/, '$1')
     .replace(/^~~(.*)~~$/, '')
     .replaceAll(/<del>.*<\/del>/g, '')
-
+  console.log(key, str)
   if (key === 'Name' && /^(-|—)$/.test(str)) {
     return 'default'
   } else if (str === '' || /^(-|—)$/.test(str)) {
@@ -87,8 +87,8 @@ const reAttribute: ReAttribute = (value, key) => {
       : str.replaceAll(/`/g, '').replaceAll(/\([^)]*\)(?!\s*=>)/g, '')
   } else if (key === 'Subtags') {
     return str
-      ? `el-${str
-          .replaceAll(/\s*\/\s*/g, '/el-')
+      ? `mx-${str
+          .replaceAll(/\s*\/\s*/g, '/mx-')
           .replaceAll(/\B([A-Z])/g, '-$1')
           .replaceAll(/\s+/g, '-')
           .toLowerCase()}`
@@ -183,7 +183,9 @@ const transformFunction = (str: string) => {
 
 export const buildHelper: TaskFunction = (done) => {
   const { name, version } = getPackageManifest(epPackage)
+  console.log(name, version)
 
+  console.log(epOutput)
   const tagVer = process.env.TAG_VERSION
   const _version = tagVer
     ? tagVer.startsWith('v')
@@ -196,7 +198,7 @@ export const buildHelper: TaskFunction = (done) => {
     version: _version,
     entry: `${path.resolve(
       projRoot,
-      'docs/en-US/component'
+      'docs/components'
     )}/!(datetime-picker|message-box|message).md`,
     outDir: epOutput,
     reComponentName,

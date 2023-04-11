@@ -1,23 +1,22 @@
 {
-  "name": "mengui-vue",
-  "version": "0.0.0-dev.1",
+  "name": "meng-ui-vue",
+  "version": "0.2.3-dev.2",
   "description": "A Component Library for Vue 3",
   "keywords": [
-    "element-plus",
-    "element",
     "component library",
     "ui framework",
     "ui",
-    "vue"
+    "vue",
+    "MengUI",
+    "meng-ui"
   ],
-  "homepage": "https://element-plus.org/",
+  "homepage": "http://sql123z.gitee.io/meng-ui-vue/",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus/issues"
+    "url": "https://github.com/qianxunyimeng/meng-ui-vue/issues"
   },
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.mjs",
-  "types": "es/index.d.ts",
   "exports": {
     ".": {
       "types": "./es/index.d.ts",
@@ -36,10 +35,12 @@
   "jsdelivr": "dist/index.full.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/qianxunyimeng/meng-ui-vue.git"
   },
+  "types": "es/index.d.ts",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "style": "dist/index.css",
   "sideEffects": [

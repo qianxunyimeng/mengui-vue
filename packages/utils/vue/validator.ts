@@ -1,5 +1,5 @@
-import { componentSizes, datePickTypes } from '@mengui-vue/constants'
-import type { ComponentSize, DatePickType } from '@mengui-vue/constants'
+import { componentSizes, datePickTypes } from '@meng-ui-vue/constants'
+import type { ComponentSize, DatePickType } from '@meng-ui-vue/constants'
 
 export const isValidComponentSize = (val: string): val is ComponentSize | '' =>
   ['', ...componentSizes].includes(val)

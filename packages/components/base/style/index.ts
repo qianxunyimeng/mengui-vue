@@ -1,1 +1,1 @@
-import '@mengui-vue/theme-chalk/src/base.scss'
+import '@meng-ui-vue/theme-chalk/src/base.scss'

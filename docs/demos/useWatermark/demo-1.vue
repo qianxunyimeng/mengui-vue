@@ -8,8 +8,8 @@
 </template>
 <script setup lang="ts">
 import { onMounted, reactive, ref, toRaw } from 'vue'
-import { useWatermark } from 'mengui-vue'
-import type { WaterMarkProp } from 'mengui-vue'
+import { useWatermark } from 'meng-ui-vue'
+import type { WaterMarkProp } from 'meng-ui-vue'
 const container = ref()
 const text = '测试水印'
 const { setWatermark, clear } = useWatermark(container)

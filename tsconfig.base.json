@@ -16,7 +16,7 @@
     "rootDir": ".",
     "types": [],
     "paths": {
-      "@mengui-vue/*": ["packages/*"]
+      "@meng-ui-vue/*": ["packages/*"]
     }
   }
 }

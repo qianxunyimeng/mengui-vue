@@ -1,4 +1,4 @@
-import { PKG_NAME, PKG_PREFIX } from '@mengui-vue/build-constants'
+import { PKG_NAME, PKG_PREFIX } from '@meng-ui-vue/build-constants'
 
 import type { Plugin } from 'rollup'
 

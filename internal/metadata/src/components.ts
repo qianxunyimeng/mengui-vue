@@ -2,7 +2,7 @@ import path from 'path'
 import glob from 'fast-glob'
 import chalk from 'chalk'
 import consola from 'consola'
-import { ensureDir, projRoot, writeJson } from '@mengui-vue/build-utils'
+import { ensureDir, projRoot, writeJson } from '@meng-ui-vue/build-utils'
 
 const pathOutput = path.resolve(__dirname, '..', 'dist')
 

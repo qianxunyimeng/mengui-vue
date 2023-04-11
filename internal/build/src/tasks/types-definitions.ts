@@ -12,7 +12,7 @@ import {
   excludeFiles,
   pkgRoot,
   projRoot,
-} from '@mengui-vue/build-utils'
+} from '@meng-ui-vue/build-utils'
 import { pathRewriter } from '../utils'
 import type { CompilerOptions, SourceFile } from 'ts-morph'
 

@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { AntDesignContainer } from '@vitepress-demo-preview/component'
 import '@vitepress-demo-preview/component/dist/style.css'
-//import MengUI from 'mengui-vue'
+//import MengUI from 'meng-ui-vue'
 import '.././././../../packages/theme-chalk/src/index.scss'
 
 import type { EnhanceAppContext } from 'vitepress'
@@ -17,12 +17,12 @@ export default {
     app.component('DemoPreview', AntDesignContainer)
     app.mixin({
       async mounted() {
-        // import('../../../dist/mengui-vue/es/index.mjs').then((module) => {
-        //   app.use(module.default)
+        // import('meng-ui-vue').then((module) => {
+        //   app.use(module)
         // })
         // eslint-disable-next-line @typescript-eslint/no-var-requires
-        const MengUI = require('mengui-vue')
-        app.use(MengUI)
+        // const MengUI = require('meng-ui-vue')
+        // app.use(MengUI)
       },
     })
   },

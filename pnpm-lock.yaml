@@ -7,25 +7,25 @@ importers:
       '@floating-ui/dom':
         specifier: ^1.0.1
         version: 1.0.1
-      '@mengui-vue/components':
+      '@meng-ui-vue/components':
         specifier: workspace:*
         version: link:packages/components
-      '@mengui-vue/constants':
+      '@meng-ui-vue/constants':
         specifier: workspace:*
         version: link:packages/constants
-      '@mengui-vue/directives':
+      '@meng-ui-vue/directives':
         specifier: workspace:*
         version: link:packages/directives
-      '@mengui-vue/hooks':
+      '@meng-ui-vue/hooks':
         specifier: workspace:*
         version: link:packages/hooks
-      '@mengui-vue/locale':
+      '@meng-ui-vue/locale':
         specifier: workspace:*
         version: link:packages/locale
-      '@mengui-vue/theme-chalk':
+      '@meng-ui-vue/theme-chalk':
         specifier: workspace:*
         version: link:packages/theme-chalk
-      '@mengui-vue/utils':
+      '@meng-ui-vue/utils':
         specifier: workspace:*
         version: link:packages/utils
       '@popperjs/core':
@@ -65,13 +65,13 @@ importers:
       '@esbuild-kit/cjs-loader':
         specifier: ^2.2.1
         version: 2.2.1
-      '@mengui-vue/build':
+      '@meng-ui-vue/build':
         specifier: workspace:^0.0.1
         version: link:internal/build
-      '@mengui-vue/build-utils':
+      '@meng-ui-vue/build-utils':
         specifier: workspace:^0.0.1
         version: link:internal/build-utils
-      '@mengui-vue/eslint-config':
+      '@meng-ui-vue/eslint-config':
         specifier: workspace:*
         version: link:internal/eslint-config
       '@pnpm/find-workspace-packages':
@@ -215,17 +215,17 @@ importers:
       '@vitepress-demo-preview/plugin':
         specifier: ^1.1.5
         version: 1.1.5(markdown-it-container@3.0.0)(vitepress@1.0.0-alpha.26)(vue@3.2.47)
-      mengui-vue:
-        specifier: npm:mengui-vue@latest
-        version: link:../packages/mengui-vue
+      meng-ui-vue:
+        specifier: npm:meng-ui-vue@latest
+        version: link:../packages/meng-ui-vue
     devDependencies:
-      '@mengui-vue/build':
+      '@meng-ui-vue/build':
         specifier: workspace:*
         version: link:../internal/build
-      '@mengui-vue/build-constants':
+      '@meng-ui-vue/build-constants':
         specifier: ^0.0.1
         version: link:../internal/build-constants
-      '@mengui-vue/build-utils':
+      '@meng-ui-vue/build-utils':
         specifier: workspace:*
         version: link:../internal/build-utils
       unplugin-vue-define-options:
@@ -237,7 +237,7 @@ importers:
 
   internal/build:
     dependencies:
-      '@mengui-vue/build-constants':
+      '@meng-ui-vue/build-constants':
         specifier: ^0.0.1
         version: link:../build-constants
       '@pnpm/find-workspace-packages':
@@ -384,13 +384,13 @@ importers:
 
   internal/metadata:
     devDependencies:
-      '@mengui-vue/build':
+      '@meng-ui-vue/build':
         specifier: ^0.0.1
         version: link:../build
-      '@mengui-vue/build-constants':
+      '@meng-ui-vue/build-constants':
         specifier: ^0.0.1
         version: link:../build-constants
-      '@mengui-vue/build-utils':
+      '@meng-ui-vue/build-utils':
         specifier: ^0.0.1
         version: link:../build-utils
       '@types/lodash-es':
@@ -443,7 +443,7 @@ importers:
 
   packages/locale: {}
 
-  packages/mengui-vue:
+  packages/meng-ui-vue:
     dependencies:
       '@ctrl/tinycolor':
         specifier: ^3.4.1
@@ -506,7 +506,7 @@ importers:
       '@esbuild-kit/cjs-loader':
         specifier: ^2.2.1
         version: 2.2.1
-      '@mengui-vue/build':
+      '@meng-ui-vue/build':
         specifier: workspace:*
         version: link:../../internal/build
       '@types/gulp-autoprefixer':

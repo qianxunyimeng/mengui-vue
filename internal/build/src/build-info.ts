@@ -1,6 +1,6 @@
 import path from 'path'
-import { PKG_NAME } from '@mengui-vue/build-constants'
-import { epOutput } from '@mengui-vue/build-utils'
+import { PKG_NAME } from '@meng-ui-vue/build-constants'
+import { epOutput } from '@meng-ui-vue/build-utils'
 
 import type { ModuleFormat } from 'rollup'
 

@@ -1,4 +1,4 @@
-import { withInstall } from '@mengui-vue/utils'
+import { withInstall } from '@meng-ui-vue/utils'
 import Button from './src/button.vue'
 
 export const MxButton = withInstall(Button)

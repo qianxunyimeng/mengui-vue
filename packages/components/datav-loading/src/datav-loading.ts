@@ -1,4 +1,4 @@
-import { buildProps } from '@mengui-vue/utils'
+import { buildProps } from '@meng-ui-vue/utils'
 import type { ExtractPropTypes } from 'vue'
 
 export const datavLoadingProps = buildProps({

@@ -1,7 +1,7 @@
 {
-  "name": "@mengui-vue/directives",
+  "name": "@meng-ui-vue/directives",
   "version": "0.0.5",
-  "description": "Element Plus directives",
+  "description": "MengUI Vue directives",
   "license": "MIT",
   "main": "index.ts",
   "module": "index.ts",

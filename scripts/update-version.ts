@@ -1,6 +1,6 @@
 import consola from 'consola'
 import chalk from 'chalk'
-import { errorAndExit, getWorkspacePackages } from '@mengui-vue/build-utils'
+import { errorAndExit, getWorkspacePackages } from '@meng-ui-vue/build-utils'
 import type { Project } from '@pnpm/find-workspace-packages'
 
 async function main() {
@@ -23,9 +23,9 @@ async function main() {
   const pkgs = Object.fromEntries(
     (await getWorkspacePackages()).map((pkg) => [pkg.manifest.name!, pkg])
   )
-  const elementPlus = pkgs['element-plus'] || pkgs['@mengui-vue/nightly']
-  const eslintConfig = pkgs['@mengui-vue/eslint-config']
-  const metadata = pkgs['@mengui-vue/metadata']
+  const elementPlus = pkgs['element-plus'] || pkgs['@meng-ui-vue/nightly']
+  const eslintConfig = pkgs['@meng-ui-vue/eslint-config']
+  const metadata = pkgs['@meng-ui-vue/metadata']
 
   const writeVersion = async (project: Project) => {
     await project.writeProjectManifest({

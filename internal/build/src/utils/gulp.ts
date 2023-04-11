@@ -1,4 +1,4 @@
-import { buildRoot } from '@mengui-vue/build-utils'
+import { buildRoot } from '@meng-ui-vue/build-utils'
 import { run } from './process'
 
 import type { TaskFunction } from 'gulp'

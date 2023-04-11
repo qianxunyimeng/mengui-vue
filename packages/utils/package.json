@@ -1,5 +1,5 @@
 {
-  "name": "@mengui-vue/utils",
+  "name": "@meng-ui-vue/utils",
   "private": true,
   "license": "MIT",
   "main": "index.ts",

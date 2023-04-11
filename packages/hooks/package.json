@@ -1,7 +1,7 @@
 {
-  "name": "@mengui-vue/hooks",
+  "name": "@meng-ui-vue/hooks",
   "version": "0.0.5",
-  "description": "Element Plus composables",
+  "description": "MengUI composables",
   "license": "MIT",
   "main": "index.ts",
   "module": "index.ts",

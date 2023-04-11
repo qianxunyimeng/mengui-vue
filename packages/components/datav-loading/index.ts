@@ -1,4 +1,4 @@
-import { withInstall } from '@mengui-vue/utils'
+import { withInstall } from '@meng-ui-vue/utils'
 import DatavLoading from './src/datav-loading.vue'
 
 export const MxDatavLoading = withInstall(DatavLoading)

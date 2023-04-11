@@ -1,4 +1,4 @@
-import { isFunction } from '@mengui-vue/utils'
+import { isFunction } from '@meng-ui-vue/utils'
 
 import type { ObjectDirective } from 'vue'
 

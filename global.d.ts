@@ -1,10 +1,8 @@
 // GlobalComponents for Volar
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    MxButton: typeof import('mengui-vue')['MxButton']
+    MxDatavLoading: typeof import('meng-ui-vue')['MxDatavLoading']
   }
-
-  interface ComponentCustomProperties {}
 }
 
 export {}

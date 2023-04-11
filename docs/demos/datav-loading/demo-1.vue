@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { MxDatavLoading } from 'mengui-vue'
+import { MxDatavLoading } from 'meng-ui-vue'
 </script>
 
 <style scoped lang="scss">

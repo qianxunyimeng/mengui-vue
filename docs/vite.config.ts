@@ -2,17 +2,17 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import VueJsx from '@vitejs/plugin-vue-jsx'
 import DefineOptions from 'unplugin-vue-define-options/vite'
-import { projRoot } from '@mengui-vue/build-utils'
+import { projRoot } from '@meng-ui-vue/build-utils'
 import type { Alias } from 'vite'
 const alias: Alias[] = []
 if (process.env.DOC_ENV !== 'production') {
   alias.push(
     {
-      find: /^mengui-vue(\/(es|lib))?$/,
-      replacement: path.resolve(projRoot, 'packages/mengui-vue/index.ts'),
+      find: /^meng-ui-vue(\/(es|lib))?$/,
+      replacement: path.resolve(projRoot, 'packages/meng-ui-vue/index.ts'),
     },
     {
-      find: /^mengui-vue\/(es|lib)\/(.*)$/,
+      find: /^meng-ui-vue\/(es|lib)\/(.*)$/,
       replacement: `${path.resolve(projRoot, 'packages')}/$2`,
     }
   )

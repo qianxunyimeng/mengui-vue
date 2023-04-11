@@ -1,8 +1,8 @@
 import installer from './defaults'
-export * from '@mengui-vue/components'
-export * from '@mengui-vue/constants'
-export * from '@mengui-vue/directives'
-export * from '@mengui-vue/hooks'
+export * from '@meng-ui-vue/components'
+export * from '@meng-ui-vue/constants'
+export * from '@meng-ui-vue/directives'
+export * from '@meng-ui-vue/hooks'
 export * from './make-installer'
 
 export const install = installer.install

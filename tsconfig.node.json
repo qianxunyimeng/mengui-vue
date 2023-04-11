@@ -11,8 +11,8 @@
     "internal/**/*.json",
     "scripts/**/*",
     "packages/theme-chalk/*",
-    "packages/mengui-vue/version.ts",
-    "packages/mengui-vue/package.json"
+    "packages/meng-ui-vue/version.ts",
+    "packages/meng-ui-vue/package.json"
   ],
   "exclude": ["**/__tests__/**", "**/tests/**", "**/dist"]
 }

@@ -1,1 +1,1 @@
-import '@mengui-vue/theme-chalk/base.css'
+import '@meng-ui-vue/theme-chalk/base.css'

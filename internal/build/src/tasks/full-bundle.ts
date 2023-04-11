@@ -13,9 +13,9 @@ import {
   PKG_BRAND_NAME,
   PKG_CAMELCASE_LOCAL_NAME,
   PKG_CAMELCASE_NAME,
-} from '@mengui-vue/build-constants'
-import { epOutput, epRoot, localeRoot } from '@mengui-vue/build-utils'
-import { version } from '../../../../packages/mengui-vue/version'
+} from '@meng-ui-vue/build-constants'
+import { epOutput, epRoot, localeRoot } from '@meng-ui-vue/build-utils'
+import { version } from '../../../../packages/meng-ui-vue/version'
 import { ElementPlusAlias } from '../plugins/element-plus-alias'
 import {
   formatBundleFilename,

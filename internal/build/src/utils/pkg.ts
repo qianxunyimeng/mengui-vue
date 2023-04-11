@@ -1,4 +1,4 @@
-import { PKG_NAME, PKG_PREFIX } from '@mengui-vue/build-constants'
+import { PKG_NAME, PKG_PREFIX } from '@meng-ui-vue/build-constants'
 import { buildConfig } from '../build-info'
 
 import type { Module } from '../build-info'

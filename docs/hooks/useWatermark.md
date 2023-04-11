@@ -12,10 +12,9 @@ lang: zh-CN
 <preview path="../demos/useWatermark/demo-1.vue" title="基本使用" description=""></preview>
 <!-- </ClientOnly> -->
 
-
 ## API
 
-### WaterMarkProp
+### WaterMarkProp Attributes
 
 |   属性名称     | 说明     | 类型    |    默认值   |
 |  -------     | ------- | ------- | ------- |
@@ -24,7 +23,7 @@ lang: zh-CN
 | content       | 水印文本内容 | string ｜ string[]  | MengUI     |
 | font       | 水印文本字体 | 详情见 `WaterMarkFontProp`  |      |
 
-### WaterMarkFontProp
+### WaterMarkFontProp Attributes
 
 |   属性名称     | 说明     | 类型    |    默认值   |
 |  -------     | ------- | ------- | ------- |
@@ -33,5 +32,3 @@ lang: zh-CN
 | fontWeight       | fontWeight| 'normal', 'light' ,'weight' ,'number'  | normal    |
 | fontStyle       | fontStyle| 'none' , 'normal' ,'italic' ,'oblique'  |  normal    |
 | fontFamily       | fontFamily| string  |  sans-serif    |
-
-

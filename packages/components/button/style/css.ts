@@ -1,2 +1,2 @@
-import '@mengui-vue/components/base/style/css'
-import '@mengui-vue/theme-chalk/mx-button.css'
+import '@meng-ui-vue/components/base/style/css'
+import '@meng-ui-vue/theme-chalk/mx-button.css'
